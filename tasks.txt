@@ -15,3 +15,10 @@ video autoplaying
 
 ---------------------ie--------------------------
 ---------------------ie--------------------------
+
+gatsby build --prefix-paths
+
+born on mount olympus in a bed that he build with his own bare hands,
+a god among gods was born. he descended upon humanity where his inhumane
+physique was admired, he devoted his whole life to enlightening us mere mortals
+on how to become shredded cunts.
