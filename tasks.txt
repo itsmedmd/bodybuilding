@@ -1,9 +1,11 @@
 ---------------------general---------------------
 jesus died for our sins, zyzz died for our gains
 
-epic animations
+epic animations, chapter number color change + border appears when scrolled in
 
 video autoplaying in background
+
+https://en.wikipedia.org/wiki/Aziz_Shavershian
 ---------------------general---------------------
 
 ---------------------aws-------------------------
@@ -18,7 +20,12 @@ video autoplaying in background
 
 gatsby build --prefix-paths
 
+CH 1
 born on mount olympus in a bed that he build with his own bare hands,
 a god among gods was born. he descended upon humanity where his inhumane
 physique was admired, he devoted his whole life to enlightening us mere mortals
 on how to become shredded cunts.
+
+CH 2
+https://www.youtube.com/watch?v=ElV8kq8ojxU
+being born an ectomorph, zyzz was very skinny his whole life.
