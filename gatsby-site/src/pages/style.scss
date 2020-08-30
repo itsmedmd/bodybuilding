@@ -1,0 +1,16 @@
+$background-color: rgb(32, 26, 26);
+$gold: rgb(205, 137, 10);
+$gray: rgb(210, 210, 210);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-color: $background-color;
+    scroll-behavior: smooth;
+    color: white;
+    font-family: "Arial Black", Arial, sans-serif;
+}
