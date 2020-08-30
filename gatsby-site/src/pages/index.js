@@ -1,10 +1,30 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./style.css";
 import Header from "../components/header";
 import Chapter from "../components/chapter";
 import Footer from "../components/footer";
 
 export default function Home() {
+  useEffect(function() {
+    const callback = function(entries) {
+      entries.forEach(entry => {
+        if(entry.isIntersecting)
+          entry.target.classList.add("is-visible");
+      });
+    };
+    
+    const observer = new IntersectionObserver(callback);
+    
+    const targets = document.getElementsByClassName("animate-on-scroll");
+    const targetsArray = [];
+    for(let i = 0; i < targets.length; i++)
+      targetsArray.push(targets[i]);
+
+    targetsArray.forEach(function(target) {
+      observer.observe(target);
+    });
+  }, []);
+
   return (
     <div className="page-content">
       <Header/>

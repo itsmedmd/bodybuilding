@@ -1,15 +1,11 @@
 ---------------------general---------------------
-epic animations, chapter number color change + border appears when scrolled in
-
 video autoplaying in background
 
 https://en.wikipedia.org/wiki/Aziz_Shavershian
 
 add sticky navigator somewhere so you can switch between chapters
 
-remake last white image text
-
-death date animation to infinity
+*note: maybe remove smooth scroll from portfolio website
 
 ---------------------general---------------------
 

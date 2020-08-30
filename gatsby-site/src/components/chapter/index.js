@@ -3,7 +3,7 @@ import React from "react";
 export default function Chapter(props) {
   return (
       <article>
-          <header>
+          <header className="animate-on-scroll">
             <h2>Chapter <span>{props.number}</span></h2>
             <h1>{props.title}</h1>
           </header>

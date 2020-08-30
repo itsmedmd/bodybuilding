@@ -7,13 +7,16 @@
 
 html, body {
   background-color: #201a1a;
-  scroll-behavior: smooth;
   color: white;
   font-family: "Arial Black", Arial, sans-serif;
 }
 
 img {
   max-width: 100%;
+}
+
+.invisible {
+  opacity: 0;
 }
 
 .page-content {
@@ -27,6 +30,7 @@ img {
 
 .page-content .page-header img {
   margin-left: 110px;
+  height: 678px;
 }
 
 .page-content .page-header h2 {
@@ -44,12 +48,39 @@ img {
 
 .page-content .page-header h3 {
   margin-left: 35px;
-  font-size: 20px;
+  font-size: 22px;
   color: #e1e1e1;
 }
 
 .page-content .page-header h3 span.infinity-symbol {
   font-family: Georgia, serif;
+}
+
+.page-content .page-header h3.death-date {
+  position: relative;
+  z-index: 3;
+}
+
+.page-content .page-header h3.death-date-infinity {
+  position: relative;
+  margin-top: -31px;
+  z-index: 1;
+}
+
+.page-content .page-header div {
+  position: relative;
+  margin: -31px auto 0;
+  left: 0;
+  background-color: #201a1a;
+  height: 28px;
+  width: 230px;
+  -webkit-transition: left 2.5s;
+  transition: left 2.5s;
+  z-index: 2;
+}
+
+.page-content .page-header.is-visible div {
+  left: 250px;
 }
 
 .page-content main article {
@@ -67,14 +98,35 @@ img {
 }
 
 .page-content main article header h2 span {
-  color: #cd890a;
+  color: #201a1a;
+  -webkit-transition: color 1s;
+  transition: color 1s;
 }
 
 .page-content main article header h1 {
   display: inline-block;
-  border-top: 1px solid #cd890a;
   font-size: 58px;
-  padding-left: 195px;
+  width: 40%;
+  text-align: end;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.page-content main article header h1:before {
+  content: "";
+  display: block;
+  width: 0;
+  border-top: 1px solid #cd890a;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.page-content main article header.is-visible h2 span {
+  color: #cd890a;
+}
+
+.page-content main article header.is-visible h1:before {
+  width: 100%;
 }
 
 .page-content main article section {
@@ -100,6 +152,7 @@ img {
 
 .page-content main article section aside img {
   margin-top: -52px;
+  height: 600px;
 }
 
 .page-content footer {
@@ -111,6 +164,9 @@ img {
   font-size: 68px;
   width: 73%;
   margin: 0 auto 200px;
+  opacity: 0;
+  -webkit-transition: opacity 3s;
+  transition: opacity 3s;
 }
 
 .page-content footer h1 span {
@@ -119,10 +175,18 @@ img {
   color: #e1e1e1;
   font-size: 52px;
   margin-top: 8px;
+  opacity: 0;
+  -webkit-transition: opacity 7s;
+  transition: opacity 7s;
 }
 
 .page-content footer img {
   width: 100%;
+  height: 1020px;
   vertical-align: bottom;
+}
+
+.page-content footer.is-visible h1, .page-content footer.is-visible span {
+  opacity: 1;
 }
 /*# sourceMappingURL=style.css.map */

@@ -11,13 +11,16 @@ $light-gray: rgb(225, 225, 225);
 
 html, body {
     background-color: $background-color;
-    scroll-behavior: smooth;
     color: white;
     font-family: "Arial Black", Arial, sans-serif;
 }
 
 img {
     max-width: 100%;
+}
+
+.invisible {
+    opacity: 0;
 }
 
 .page-content {
@@ -29,6 +32,7 @@ img {
 
         img {
             margin-left: 110px;
+            height: 678px;
         }
 
         h2 {
@@ -46,11 +50,39 @@ img {
 
         h3 {
             margin-left: 35px;
-            font-size: 20px;
+            font-size: 22px;
             color: $light-gray;
 
             span.infinity-symbol {
                 font-family: Georgia, serif;
+            }
+
+            &.death-date {
+                position: relative;
+                z-index: 3;
+            }
+
+            &.death-date-infinity {
+                position: relative;
+                margin-top: -31px;
+                z-index: 1;
+            }
+        }
+
+        div {
+            position: relative;
+            margin: -31px auto 0;
+            left: 0;
+            background-color: $background-color;
+            height: 28px;
+            width: 230px;
+            transition: left 2.5s;
+            z-index: 2;
+        }
+
+        &.is-visible {
+            div {
+                left: 250px;
             }
         }
     }
@@ -68,15 +100,35 @@ img {
                     padding-bottom: 6px;
 
                     span {
-                        color: $gold;
+                        color: $background-color;
+                        transition: color 1s;
                     }
                 }
 
                 h1 {
                     display: inline-block;
-                    border-top: 1px solid $gold;
                     font-size: 58px;
-                    padding-left: 195px;
+                    width: 40%;
+                    text-align: end;
+                    transition: 1s;
+
+                    &:before {
+                        content: "";
+                        display: block;
+                        width: 0;
+                        border-top: 1px solid $gold;
+                        transition: 0.7s;
+                    }
+                }
+
+                &.is-visible {
+                    h2 span {
+                        color: $gold;
+                    }
+
+                    h1:before {
+                        width: 100%;
+                    }
                 }
             }
 
@@ -99,6 +151,7 @@ img {
                     
                     img {
                         margin-top: -52px;
+                        height: 600px;
                     }
                 }
             }
@@ -113,6 +166,8 @@ img {
             font-size: 68px;
             width: 73%;
             margin: 0 auto 200px;
+            opacity: 0;
+            transition: opacity 3s;
 
             span {
                 display: block;
@@ -120,12 +175,21 @@ img {
                 color: $light-gray;
                 font-size: 52px;
                 margin-top: 8px;
+                opacity: 0;
+                transition: opacity 7s;
             }
         }
 
         img {
             width: 100%;
+            height: 1020px;
             vertical-align: bottom;
+        }
+
+        &.is-visible {
+            h1, span {
+                opacity: 1;
+            }
         }
     }
 }

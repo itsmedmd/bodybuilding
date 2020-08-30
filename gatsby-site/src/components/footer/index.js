@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Footer() {
   return (
-      <footer>
+      <footer className="animate-on-scroll" >
           <h1>
               'Zyzz is not a person. Zyzz is merely a personification of a way of life.'
-              <span> -Zyzz</span>
+              <span>-Zyzz</span>
           </h1>
           <img src="veni-vidi-vici.jpg" alt="A compilation of some of Zyzz's quotes" />
       </footer>
