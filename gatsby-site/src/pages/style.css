@@ -11,4 +11,118 @@ html, body {
   color: white;
   font-family: "Arial Black", Arial, sans-serif;
 }
+
+img {
+  max-width: 100%;
+}
+
+.page-content {
+  overflow: hidden;
+}
+
+.page-content .page-header {
+  text-align: center;
+  padding: 20px 0 100px;
+}
+
+.page-content .page-header img {
+  margin-left: 110px;
+}
+
+.page-content .page-header h2 {
+  margin-right: 68px;
+  margin-bottom: 8px;
+  font-size: 30px;
+  color: #d2d2d2;
+}
+
+.page-content .page-header h2 span {
+  font-size: 66px;
+  padding: 0 6px;
+  color: white;
+}
+
+.page-content .page-header h3 {
+  margin-left: 35px;
+  font-size: 20px;
+  color: #e1e1e1;
+}
+
+.page-content .page-header h3 span.infinity-symbol {
+  font-family: Georgia, serif;
+}
+
+.page-content main article {
+  border-top: 1px solid #cd890a;
+  padding: 120px 100px 120px 120px;
+}
+
+.page-content main article header {
+  margin-bottom: 100px;
+}
+
+.page-content main article header h2 {
+  font-size: 42px;
+  padding-bottom: 6px;
+}
+
+.page-content main article header h2 span {
+  color: #cd890a;
+}
+
+.page-content main article header h1 {
+  display: inline-block;
+  border-top: 1px solid #cd890a;
+  font-size: 58px;
+  padding-left: 195px;
+}
+
+.page-content main article section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page-content main article section section {
+  width: 40%;
+  text-align: justify;
+}
+
+.page-content main article section section p {
+  font-size: 26px;
+  line-height: 39px;
+}
+
+.page-content main article section aside {
+  width: 60%;
+  text-align: center;
+}
+
+.page-content main article section aside img {
+  margin-top: -52px;
+}
+
+.page-content footer {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.page-content footer h1 {
+  font-size: 68px;
+  width: 73%;
+  margin: 0 auto 200px;
+}
+
+.page-content footer h1 span {
+  display: block;
+  text-align: end;
+  color: #e1e1e1;
+  font-size: 52px;
+  margin-top: 8px;
+}
+
+.page-content footer img {
+  width: 100%;
+  vertical-align: bottom;
+}
 /*# sourceMappingURL=style.css.map */
