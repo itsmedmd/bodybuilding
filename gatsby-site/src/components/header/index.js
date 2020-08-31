@@ -3,7 +3,8 @@ import React from "react";
 export default function Header() {
   return (
       <header className="page-header animate-on-scroll" >
-          <img src="golden-angel.jpg" alt="Golden Zyzz with wings" />
+          <img src="golden-angel.jpg" alt="Golden Zyzz with wings" width="914" height="678" />
+
           <h2>Азиз Сергеевич <span>ZYZZ</span> Шавершян</h2>
           
           <h3 className="death-date" >
@@ -18,7 +19,7 @@ export default function Header() {
             <span className="infinity-symbol" > ∞</span>
           </h3>
 
-          <div></div>
+          <div className="animation-cover-bar"></div>
       </header>
   );
 }

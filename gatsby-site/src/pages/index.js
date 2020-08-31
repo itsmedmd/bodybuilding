@@ -32,7 +32,7 @@ export default function Home() {
         <Chapter number="ONE" title="Introduction" src="arm-flex.jpg" alt="Zyzz flexing his bicep at a party" >
           <p>born on the steeping hills of mount olympus in a bed that he build with his own bare hands, a god among gods was born. he descended upon humanity where his inhumane physique was admired, he devoted his whole life to enlightening us mere mortals on how to become shredded cunts.</p>
         </Chapter>
-        <Chapter number="TWO" title="Transformation" src="transformation.jpg" alt="Zyzz's body transformation pictures" >
+        <Chapter number="TWO" title="Transformation" src="transformation.jpg" alt="Zyzz's body transformation pictures" transformation="true" >
           <p>born on the steeping hills of mount olympus in a bed that he build with his own bare hands, a god among gods was born. he descended upon humanity where his inhumane physique was admired, he devoted his whole life to enlightening us mere mortals on how to become shredded cunts.</p>
         </Chapter>
         <Chapter number="THREE" title="Inspiration" src="brothers.jpg" alt="Zyzz and his brother Chestbrah smiling" >

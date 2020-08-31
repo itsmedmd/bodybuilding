@@ -35,6 +35,7 @@ img {
             height: 678px;
         }
 
+
         h2 {
             margin-right: 68px;
             margin-bottom: 8px;
@@ -69,14 +70,14 @@ img {
             }
         }
 
-        div {
+        .animation-cover-bar {
             position: relative;
             margin: -31px auto 0;
             left: 0;
             background-color: $background-color;
             height: 28px;
             width: 230px;
-            transition: left 3s;
+            transition: left 4s;
             z-index: 2;
         }
 
@@ -158,6 +159,10 @@ img {
                 }
             }
         }
+
+        article:nth-child(2) section aside img {
+            height: 300px;
+        }
     }
 
     footer {
@@ -216,20 +221,26 @@ img {
 
 @media only screen and (max-width: 1280px) {
     .page-content {
-        main article {
-            header h1 {
-                width: 60%;
+        main {
+            article {
+                header h1 {
+                    width: 60%;
+                }
+
+                section {
+                    section p {
+                        font-size: 25px;
+                        line-height: 36px;
+                    }
+
+                    aside img {
+                        height: 500px;
+                    }
+                }
             }
 
-            section {
-                section p {
-                    font-size: 25px;
-                    line-height: 36px;
-                }
-
-                aside img {
-                    height: 500px;
-                }
+            article:nth-child(2) section aside img {
+                height: 250px;
             }
         }
 
@@ -270,7 +281,7 @@ img {
                     margin-left: 0;
 
                     img {
-                        height: 600px;
+                        height: 300px;
                     }
                 }
             }
@@ -284,34 +295,40 @@ img {
 
 @media only screen and (max-width: 960px) {
     .page-content {
-        main article {
-            padding-right: 60px;
-            padding-left: 60px;
-
-            header {
-                margin-bottom: 75px;
-
-                h1 {
-                    width: 80%;
-                }
-            }
-
-            section {
-                flex-direction: column;
-
-                section {
-                    width: 100%;
-                    margin-bottom: 60px;
-                }
+        main {
+            article {
+                padding-right: 60px;
+                padding-left: 60px;
     
-                aside {
-                    width: 100%;
-                    margin-left: 0;
-
-                    img {
-                        height: 600px;
+                header {
+                    margin-bottom: 75px;
+    
+                    h1 {
+                        width: 80%;
                     }
                 }
+    
+                section {
+                    flex-direction: column;
+    
+                    section {
+                        width: 100%;
+                        margin-bottom: 60px;
+                    }
+        
+                    aside {
+                        width: 100%;
+                        margin-left: 0;
+    
+                        img {
+                            height: 600px;
+                        }
+                    }
+                }
+            }
+    
+            article:nth-child(2) section aside img {
+                height: 420px;
             }
         }
 
@@ -351,7 +368,7 @@ img {
             }
 
             article:nth-child(2) section aside img {
-                height: 420px;
+                height: 320px;
             }
         }
 
@@ -372,9 +389,15 @@ img {
 }
 
 @media only screen and (max-width: 580px) {
-    .page-content main article header h1 {
-        width: 100%;
-        font-size: 46px;
+    .page-content main {
+        article header h1 {
+            width: 100%;
+            font-size: 46px;
+        }
+
+        article:nth-child(2) section aside img {
+            height: 280px;
+        }
     }
 }
 
@@ -408,7 +431,7 @@ img {
             }
 
             article:nth-child(2) section aside img {
-                height: 300px;
+                height: 250px;
             }
         }
 
@@ -449,7 +472,7 @@ img {
             }
 
             article:nth-child(2) section aside img {
-                height: 300px;
+                height: 220px;
             }
         }
 

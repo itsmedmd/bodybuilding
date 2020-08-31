@@ -67,15 +67,15 @@ img {
   z-index: 1;
 }
 
-.page-content .page-header div {
+.page-content .page-header .animation-cover-bar {
   position: relative;
   margin: -31px auto 0;
   left: 0;
   background-color: #201a1a;
   height: 28px;
   width: 230px;
-  -webkit-transition: left 3s;
-  transition: left 3s;
+  -webkit-transition: left 4s;
+  transition: left 4s;
   z-index: 2;
 }
 
@@ -160,6 +160,10 @@ img {
   height: 600px;
 }
 
+.page-content main article:nth-child(2) section aside img {
+  height: 300px;
+}
+
 .page-content footer {
   margin-top: 120px;
   text-align: center;
@@ -218,6 +222,9 @@ img {
   .page-content main article section aside img {
     height: 500px;
   }
+  .page-content main article:nth-child(2) section aside img {
+    height: 250px;
+  }
   .page-content footer h1 {
     width: 60%;
   }
@@ -251,7 +258,7 @@ img {
     margin-left: 0;
   }
   .page-content main article:nth-child(2) section aside img {
-    height: 600px;
+    height: 300px;
   }
   .page-content footer h1 {
     width: 64%;
@@ -286,6 +293,9 @@ img {
   .page-content main article section aside img {
     height: 600px;
   }
+  .page-content main article:nth-child(2) section aside img {
+    height: 420px;
+  }
   .page-content footer h1 {
     width: 75%;
   }
@@ -313,7 +323,7 @@ img {
     height: 450px;
   }
   .page-content main article:nth-child(2) section aside img {
-    height: 420px;
+    height: 320px;
   }
   .page-content footer h1 {
     width: 90%;
@@ -333,6 +343,9 @@ img {
   .page-content main article header h1 {
     width: 100%;
     font-size: 46px;
+  }
+  .page-content main article:nth-child(2) section aside img {
+    height: 280px;
   }
 }
 
@@ -355,7 +368,7 @@ img {
     height: 350px;
   }
   .page-content main article:nth-child(2) section aside img {
-    height: 300px;
+    height: 250px;
   }
   .page-content footer h1 {
     font-size: 36px;
@@ -380,7 +393,7 @@ img {
     height: 350px;
   }
   .page-content main article:nth-child(2) section aside img {
-    height: 300px;
+    height: 220px;
   }
   .page-content footer h1 {
     font-size: 32px;
