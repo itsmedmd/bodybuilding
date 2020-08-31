@@ -1,11 +1,5 @@
 ---------------------general---------------------
-video autoplaying in background
-
-https://en.wikipedia.org/wiki/Aziz_Shavershian
-
 add sticky navigator somewhere so you can switch between chapters
-
-*note: maybe remove smooth scroll from portfolio website
 
 ---------------------general---------------------
 
@@ -17,6 +11,9 @@ add sticky navigator somewhere so you can switch between chapters
 ---------------------mobile----------------------
 
 ---------------------ie--------------------------
+
+test for ie
+
 ---------------------ie--------------------------
 
 gatsby build --prefix-paths

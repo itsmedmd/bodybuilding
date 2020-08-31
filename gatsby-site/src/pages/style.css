@@ -74,8 +74,8 @@ img {
   background-color: #201a1a;
   height: 28px;
   width: 230px;
-  -webkit-transition: left 2.5s;
-  transition: left 2.5s;
+  -webkit-transition: left 3s;
+  transition: left 3s;
   z-index: 2;
 }
 
@@ -84,7 +84,7 @@ img {
 }
 
 .page-content main article {
-  border-top: 1px solid #cd890a;
+  border-top: 1px solid rgba(205, 137, 10, 0.5);
   padding: 120px 100px 120px 120px;
 }
 
@@ -136,8 +136,10 @@ img {
 }
 
 .page-content main article section section {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   width: 40%;
-  text-align: justify;
 }
 
 .page-content main article section section p {
@@ -146,12 +148,15 @@ img {
 }
 
 .page-content main article section aside {
-  width: 60%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: calc(60% - 60px);
+  margin-left: 60px;
   text-align: center;
 }
 
 .page-content main article section aside img {
-  margin-top: -52px;
   height: 600px;
 }
 
@@ -182,11 +187,206 @@ img {
 
 .page-content footer img {
   width: 100%;
-  height: 1020px;
+  height: 66.7%;
   vertical-align: bottom;
 }
 
 .page-content footer.is-visible h1, .page-content footer.is-visible span {
   opacity: 1;
+}
+
+@media only screen and (max-width: 1600px) {
+  .page-content main article {
+    padding-right: 20px;
+  }
+  .page-content main article:nth-child(2) section section {
+    width: 30%;
+  }
+  .page-content main article:nth-child(2) section aside {
+    width: calc(70% - 60px);
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .page-content main article header h1 {
+    width: 60%;
+  }
+  .page-content main article section section p {
+    font-size: 25px;
+    line-height: 36px;
+  }
+  .page-content main article section aside img {
+    height: 500px;
+  }
+  .page-content footer h1 {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .page-content .page-header img {
+    margin-left: 8%;
+    width: 92%;
+    height: 74%;
+  }
+  .page-content main article {
+    padding-right: 80px;
+    padding-left: 80px;
+  }
+  .page-content main article header h1 {
+    width: 70%;
+  }
+  .page-content main article:nth-child(2) section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .page-content main article:nth-child(2) section section {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .page-content main article:nth-child(2) section aside {
+    width: 100%;
+    margin-left: 0;
+  }
+  .page-content main article:nth-child(2) section aside img {
+    height: 600px;
+  }
+  .page-content footer h1 {
+    width: 64%;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .page-content main article {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .page-content main article header {
+    margin-bottom: 75px;
+  }
+  .page-content main article header h1 {
+    width: 80%;
+  }
+  .page-content main article section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .page-content main article section section {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .page-content main article section aside {
+    width: 100%;
+    margin-left: 0;
+  }
+  .page-content main article section aside img {
+    height: 600px;
+  }
+  .page-content footer h1 {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .page-content .page-header {
+    padding-bottom: 60px;
+  }
+  .page-content .page-header h2 {
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+  .page-content .page-header h2 span {
+    display: block;
+  }
+  .page-content .page-header h3 {
+    margin-left: 0;
+  }
+  .page-content main article {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  .page-content main article section aside img {
+    height: 450px;
+  }
+  .page-content main article:nth-child(2) section aside img {
+    height: 420px;
+  }
+  .page-content footer h1 {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .page-content footer h1 {
+    font-size: 54px;
+  }
+  .page-content footer h1 span {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .page-content main article header h1 {
+    width: 100%;
+    font-size: 46px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .page-content main article {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .page-content main article header h2 {
+    font-size: 34px;
+  }
+  .page-content main article header h1 {
+    font-size: 38px;
+  }
+  .page-content main article section section p {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .page-content main article section aside img {
+    height: 350px;
+  }
+  .page-content main article:nth-child(2) section aside img {
+    height: 300px;
+  }
+  .page-content footer h1 {
+    font-size: 36px;
+  }
+  .page-content footer h1 span {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .page-content main article header h2 {
+    font-size: 24px;
+  }
+  .page-content main article header h1 {
+    font-size: 24px;
+  }
+  .page-content main article section section p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .page-content main article section aside img {
+    height: 350px;
+  }
+  .page-content main article:nth-child(2) section aside img {
+    height: 300px;
+  }
+  .page-content footer h1 {
+    font-size: 32px;
+  }
+  .page-content footer h1 span {
+    font-size: 28px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
