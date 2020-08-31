@@ -8,6 +8,9 @@ add sticky navigator somewhere so you can switch between chapters
 ---------------------aws-------------------------
 
 ---------------------mobile----------------------
+
+ios image loading bad
+
 ---------------------mobile----------------------
 
 ---------------------ie--------------------------

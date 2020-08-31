@@ -30,7 +30,6 @@ img {
 
 .page-content .page-header img {
   margin-left: 110px;
-  height: 678px;
 }
 
 .page-content .page-header h2 {
@@ -47,9 +46,12 @@ img {
 }
 
 .page-content .page-header h3 {
-  margin-left: 35px;
+  margin-left: 15px;
   font-size: 22px;
   color: #e1e1e1;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
 }
 
 .page-content .page-header h3 span.infinity-symbol {
@@ -57,19 +59,18 @@ img {
 }
 
 .page-content .page-header h3.death-date {
-  position: relative;
+  position: absolute;
   z-index: 3;
 }
 
 .page-content .page-header h3.death-date-infinity {
-  position: relative;
-  margin-top: -31px;
+  position: absolute;
   z-index: 1;
 }
 
 .page-content .page-header .animation-cover-bar {
   position: relative;
-  margin: -31px auto 0;
+  margin: 0 auto;
   left: 0;
   background-color: #201a1a;
   height: 28px;
