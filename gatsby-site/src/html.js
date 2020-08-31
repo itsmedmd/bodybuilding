@@ -2,6 +2,10 @@ import React from "react"
 import PropTypes from "prop-types"
 
 export default function HTML(props) {
+  function initLazyload() {
+    const lazyload = new LazyLoad({elements_selector: '.lazyload'});
+  }
+
   return (
     <html {...props.htmlAttributes}>
       <head>

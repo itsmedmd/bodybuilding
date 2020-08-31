@@ -3,12 +3,12 @@ import React from "react";
 export default function Chapter(props) {
   const images = props.transformation ?
     <>
-      <img src="transformation-1.jpg" alt={`${props.alt}`} />
-      <img src="transformation-2.jpg" alt={`${props.alt}`} />
-      <img src="transformation-3.jpg" alt={`${props.alt}`} />
-      <img src="transformation-4.jpg" alt={`${props.alt}`} />
+      <img className="lazyload" src="transformation-1-lowq.jpg" data-src="transformation-1.jpg" alt={`${props.alt}`} />
+      <img className="lazyload" src="transformation-2-lowq.jpg" data-src="transformation-2.jpg" alt={`${props.alt}`} />
+      <img className="lazyload" src="transformation-3-lowq.jpg" data-src="transformation-3.jpg" alt={`${props.alt}`} />
+      <img className="lazyload" src="transformation-4-lowq.jpg" data-src="transformation-4.jpg" alt={`${props.alt}`} />
     </>
-    : <img src={props.src} alt={`${props.alt}`} />;
+    : <img className="lazyload" src={props.lazySrc} data-src={props.src} alt={`${props.alt}`} />;
 
   return (
       <article>

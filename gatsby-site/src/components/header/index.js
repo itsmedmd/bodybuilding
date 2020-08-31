@@ -3,7 +3,7 @@ import React from "react";
 export default function Header() {
   return (
       <header className="page-header animate-on-scroll" >
-          <img src="golden-angel.jpg" alt="Golden Zyzz with wings" width="914" height="678" />
+          <img className="lazyload" src="golden-angel-placeholder.jpg" data-src="golden-angel.jpg" alt="Golden Zyzz with wings" width="914" height="678" />
 
           <h2>Азиз Сергеевич <span>ZYZZ</span> Шавершян</h2>
           

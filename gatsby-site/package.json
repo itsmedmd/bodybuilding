@@ -18,7 +18,8 @@
     "gatsby-plugin-google-analytics": "^2.3.13",
     "gatsby-plugin-manifest": "^2.4.25",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "vanilla-lazyload": "^17.1.2"
   },
   "devDependencies": {
     "prettier": "2.1.0"

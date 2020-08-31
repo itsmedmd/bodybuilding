@@ -9,7 +9,7 @@ export default function Footer() {
           </h1>
           <picture>
             <source media="(max-width: 1024px)" srcSet="quotes-clear.jpg" />
-            <img src="quotes.jpg" alt="A compilation of some of Zyzz's quotes" width="1338" height="893" />
+            <img className="lazyload" src="quotes-lowq.jpg" data-src="quotes.jpg" alt="A compilation of some of Zyzz's quotes" width="1338" height="893" />
           </picture>
       </footer>
   );

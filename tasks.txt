@@ -1,6 +1,8 @@
 ---------------------general---------------------
 add sticky navigator somewhere so you can switch between chapters
 
+add go back to home page button
+
 ---------------------general---------------------
 
 ---------------------aws-------------------------
