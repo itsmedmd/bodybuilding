@@ -4,6 +4,7 @@ import Header from "../components/header";
 import Chapter from "../components/chapter";
 import Footer from "../components/footer";
 import LazyLoad from "vanilla-lazyload";
+import { Link } from "gatsby";
 
 export default function Home() {
   useEffect(function() {
@@ -32,6 +33,7 @@ export default function Home() {
 
   return (
     <div className="page-content">
+      <Link to=".." className="go-back-to-homepage">GO BACK TO HOME PAGE</Link>
       <Header/>
       <main>
         <Chapter number="ONE" title="Introduction" src="arm-flex.jpg" lazySrc="arm-flex-lowq.jpg" alt="Zyzz flexing his bicep at a party" >

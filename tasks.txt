@@ -1,7 +1,12 @@
 ---------------------general---------------------
 add sticky navigator somewhere so you can switch between chapters
 
-add go back to home page button
+write content for chapters:
+ch1
+ch2
+ch3
+ch4
+ch5
 
 ---------------------general---------------------
 
@@ -10,9 +15,7 @@ add go back to home page button
 ---------------------aws-------------------------
 
 ---------------------mobile----------------------
-
-ios image loading bad
-
+death date animation probably not gonna work when it's not in one line
 ---------------------mobile----------------------
 
 ---------------------ie--------------------------
@@ -37,10 +40,6 @@ being born an ectomorph, zyzz was very skinny his whole life.
 ch 3
 zyzz himself inspired to train by his brother, Chestbrah, repayed the price for others.
 many people have been greatly inspired by zyzz to work hard towards having aesthetic body.
-
-Q. Who is Zyzz?
-
-A. Zyzz is not a person. Zyzz is merely a personification of a way of life. - zyzz
 
 
 -even though people are sad to see such a person go, deep down they know

@@ -23,9 +23,21 @@ img {
   overflow: hidden;
 }
 
+.page-content .go-back-to-homepage {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  padding: 10px;
+  background-color: #c00e4d;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
 .page-content .page-header {
   text-align: center;
   padding: 20px 0 100px;
+  margin-top: 50px;
 }
 
 .page-content .page-header img {

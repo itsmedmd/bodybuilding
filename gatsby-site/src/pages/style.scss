@@ -26,9 +26,21 @@ img {
 .page-content {
     overflow: hidden;
 
+    .go-back-to-homepage {
+        position: absolute;
+        top: 5px; 
+        left: 5px;
+        padding: 10px;
+        background-color: rgb(192, 14, 77);
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+    }
+
     .page-header {
         text-align: center;
         padding: 20px 0 100px;
+        margin-top: 50px;
 
         img {
             margin-left: 110px;
