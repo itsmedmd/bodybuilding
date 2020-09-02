@@ -58,12 +58,10 @@ img {
 }
 
 .page-content .page-header h3 {
-  margin-left: 15px;
+  width: 100%;
+  padding-left: 25px;
   font-size: 22px;
   color: #e1e1e1;
-  left: 50%;
-  -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
 }
 
 .page-content .page-header h3 span.infinity-symbol {
