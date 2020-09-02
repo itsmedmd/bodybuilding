@@ -1,17 +1,10 @@
 ---------------------general---------------------
 add sticky navigator somewhere so you can switch between chapters
 
-write content for chapters:
-ch1
-ch2
-ch3
-ch4
-ch5
 
 ---------------------general---------------------
 
 ---------------------aws-------------------------
-
 ---------------------aws-------------------------
 
 ---------------------mobile----------------------
@@ -19,37 +12,7 @@ death date animation probably not gonna work when it's not in one line
 ---------------------mobile----------------------
 
 ---------------------ie--------------------------
-
 test for ie
-
 ---------------------ie--------------------------
 
 gatsby build --prefix-paths
-
-CH 1
-born on the steeping hills of mount olympus in a bed that he build with his own bare hands,
-a god among gods was born. he descended upon humanity where his inhumane
-physique was admired, he devoted his whole life to enlightening us mere mortals
-on how to become shredded cunts.
-
-CH 2
-https://www.youtube.com/watch?v=ElV8kq8ojxU
-being born an ectomorph, zyzz was very skinny his whole life.
-
-
-ch 3
-zyzz himself inspired to train by his brother, Chestbrah, repayed the price for others.
-many people have been greatly inspired by zyzz to work hard towards having aesthetic body.
-
-
--even though people are sad to see such a person go, deep down they know
- that zyzz has done his purpose on earth. the millions that admire him are the proof.
-
--we're all going to make it brahs
-
--jesus died for our sins, zyzz died for our gains
-
-
-- everybody will die one day and be forgotten. Find a passion, form relationships,
-don't be afraid to get out there and fuck what everyone else thinks. - zyzz
-

@@ -5,7 +5,7 @@ export default function Footer() {
       <footer className="animate-on-scroll" >
           <h1>
               'Zyzz is not a person. Zyzz is merely a personification of a way of life.'
-              <span>-Zyzz</span>
+              <span>-Aziz</span>
           </h1>
           <picture>
             <source media="(max-width: 1024px)" srcSet="quotes-clear.jpg" />
