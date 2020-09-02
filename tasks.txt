@@ -8,7 +8,6 @@ add sticky navigator somewhere so you can switch between chapters
 ---------------------aws-------------------------
 
 ---------------------mobile----------------------
-death date animation probably not gonna work when it's not in one line
 ---------------------mobile----------------------
 
 ---------------------ie--------------------------

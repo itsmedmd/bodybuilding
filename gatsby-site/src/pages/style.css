@@ -59,7 +59,7 @@ img {
 
 .page-content .page-header h3 {
   width: 100%;
-  padding-left: 25px;
+  padding-left: 23px;
   font-size: 22px;
   color: #e1e1e1;
 }
@@ -328,7 +328,7 @@ img {
     display: block;
   }
   .page-content .page-header h3 {
-    margin-left: 0;
+    padding-left: 0;
   }
   .page-content main article {
     padding-right: 40px;
