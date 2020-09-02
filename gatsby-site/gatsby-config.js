@@ -19,8 +19,8 @@ module.exports = {
         name: `Zyzz Bodybuilding`,
         short_name: `Zyzz`,
         start_url: `/`,
-        background_color: `#1E2129`,
-        theme_color: `#00B2C1`,
+        background_color: `#201A1A`,
+        theme_color: `#CD890A`,
         display: `standalone`,
         icons: [
           {
