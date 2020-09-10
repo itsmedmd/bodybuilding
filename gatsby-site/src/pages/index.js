@@ -10,7 +10,10 @@ export default function Home() {
   useEffect(function() {
     // Initialize lazyload one time for the entire application
     if (!document.lazyLoadInstance)
-      document.lazyLoadInstance = new LazyLoad({elements_selector: ".lazyload"});
+      document.lazyLoadInstance = new LazyLoad({
+        elements_selector: ".lazyload",
+        threshold: 1000
+      });
 
     const callback = function(entries) {
       entries.forEach(entry => {
