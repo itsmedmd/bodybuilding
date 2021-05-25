@@ -5,7 +5,7 @@
  */
 
 module.exports = {
-  pathPrefix: `/projects/3/preview`,
+  pathPrefix: `/projects/zyzz-bodybuilding/preview`,
   plugins: [
     {
       resolve: `gatsby-plugin-google-analytics`,
