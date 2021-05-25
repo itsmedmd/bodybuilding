@@ -15,7 +15,7 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <title>{`DMD - Project 3 - Zyzz Bodybuilding`}</title>
+        <title>{`Deimantas Butėnas - Zyzz Bodybuilding`}</title>
         <meta name="title" content="Frontend developer Deimantas Butėnas" />
         <meta name="description" content="A portfolio website of Deimantas Butėnas where you can see his work!" />
         <meta name="keywords" content="web development, frontend, portfolio, design, web design" />
